@@ -123,6 +123,16 @@ A separate extracellular matrix/tissue structure cluster included COL4A1, COL4A2
 
 ![STRING protein-protein interaction network](string_network_top100.png)
 
+## Comparison to the Original Study
+
+GSE175817 was generated for Do et al. (2022), *"TREM2 macrophages induced by human lipids drive inflammation in acne lesions,"* published in *Science Immunology*. The original study's central finding, derived from cell-type-resolved single-cell and spatial analysis, was that a specific macrophage subtype (**TREM2⁺ macrophages**) accumulates near hair follicles and sebaceous glands in acne lesions. These macrophages are induced by **squalene**, a skin lipid overproduced in acne, which drives their differentiation while simultaneously impairing their ability to kill *Cutibacterium acnes*, resulting in a self-perpetuating cycle of lipid accumulation and inflammation.
+
+**Convergence with this analysis.** The dominant cluster identified in this project's STRING network (CD163, FCGR3A, C1QB, LILRB1/2/4, C3AR1, C5AR1, CCR1, GZMB) is macrophage/myeloid-dominated independently arriving at macrophages as the central cell type of interest, despite using a different analytical approach (bulk pseudobulk differential expression and network analysis, rather than the original study's cell-type-specific subclustering). Two independent methods converging on the same cell type is a meaningful consistency check.
+
+**A connection anticipated before reviewing the source paper.** This project's AI-Assisted Interpretation section (see below) independently proposed that lysosome pathway enrichment might reflect sebocyte lipid processing rather than purely immune debris clearance. The original study's central mechanism; squalene-driven lipid metabolism in macrophages, directly supports that earlier speculation.
+
+**An honest divergence.** This project's single strongest statistical signal was cornified envelope formation (epidermal barrier biology), whereas the original study's central narrative concerns the macrophage-lipid-bacterial axis specifically, with less emphasis on keratinocyte barrier function. This is a plausible consequence of methodology rather than a contradiction as this analysis used pseudobulk aggregation, summing expression across *all* cell types combined, while the original study deliberately isolated and compared macrophage subpopulations. Keratinocytes are far more numerous than macrophages in skin tissue, so a pseudobulk approach could allow epidermal signal to dominate the top statistical results even where a specific immune cell subtype shows the most disease-relevant biology. 
+
 ## Interpretation
 
 **1. Epidermal and barrier biology.** The enrichment of cornified envelope formation and tight junction pathways suggests alterations in epidermal differentiation and skin-barrier function relevant to acne given the epidermis's role as a physical barrier, and given that altered keratinisation is thought to contribute to pore blockage.
