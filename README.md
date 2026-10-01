@@ -133,6 +133,8 @@ GSE175817 was generated for Do et al. (2022), *"TREM2 macrophages induced by hum
 
 **An honest divergence.** This project's single strongest statistical signal was cornified envelope formation (epidermal barrier biology), whereas the original study's central narrative concerns the macrophage-lipid-bacterial axis specifically, with less emphasis on keratinocyte barrier function. This is a plausible consequence of methodology rather than a contradiction as this analysis used pseudobulk aggregation, summing expression across *all* cell types combined, while the original study deliberately isolated and compared macrophage subpopulations. Keratinocytes are far more numerous than macrophages in skin tissue, so a pseudobulk approach could allow epidermal signal to dominate the top statistical results even where a specific immune cell subtype shows the most disease-relevant biology. 
 
+Do, T.H., Ma, F., Andrade, P.R. et al. (2022). TREM2 macrophages induced by human lipids drive inflammation in acne lesions. Science Immunology, 7(78). https://doi.org/10.1126/sciimmunol.abo2787
+
 ## Interpretation
 
 **1. Epidermal and barrier biology.** The enrichment of cornified envelope formation and tight junction pathways suggests alterations in epidermal differentiation and skin-barrier function relevant to acne given the epidermis's role as a physical barrier, and given that altered keratinisation is thought to contribute to pore blockage.
